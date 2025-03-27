@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.example.crypto.databinding.ActivityMainBinding
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.crypto.encryption.EncryptToBinary
 
 private lateinit var binding: ActivityMainBinding
 

@@ -3,6 +3,7 @@ package com.example.crypto
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.example.crypto.algorithms.AlgorithmsOperations
 import com.example.crypto.databinding.ActivityMainBinding
 import com.example.crypto.encryption.EncryptToBinary
 
@@ -22,6 +23,8 @@ class MainActivity : AppCompatActivity() {
             binding.resultTextViewKey.text = "K= $encryptedTexKey"
 
             binding.schemeImg.setImageResource(R.drawable.scheme)
+
+            binding.textX1MultiplyZ1.text = AlgorithmsOperations.binaryOperationsW1(inputText, inputTextKey)
         }
     }
 }

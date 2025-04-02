@@ -1,4 +1,4 @@
-package com.example.crypto
+package com.example.crypto.encryption
 
 data class BinaryMapping(
     val char: Char,

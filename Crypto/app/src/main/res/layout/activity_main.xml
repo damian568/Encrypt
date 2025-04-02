@@ -65,12 +65,116 @@
                 app:layout_constraintTop_toBottomOf="@id/resultTextViewKey"/>
 
             <TextView
-                android:id="@+id/textX1MultiplyZ1"
+                android:id="@+id/textW1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:textSize="18sp"
                 app:layout_constraintTop_toBottomOf="@+id/schemeImg" />
+
+            <TextView
+                android:id="@+id/textW2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW1" />
+
+            <TextView
+                android:id="@+id/textW3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW2" />
+
+            <TextView
+                android:id="@+id/textW4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW3" />
+
+            <TextView
+                android:id="@+id/textW5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW4" />
+
+            <TextView
+                android:id="@+id/textW6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW5" />
+
+            <TextView
+                android:id="@+id/textW7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW6" />
+
+            <TextView
+                android:id="@+id/textW8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW7" />
+
+            <TextView
+                android:id="@+id/textW9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW8" />
+
+            <TextView
+                android:id="@+id/textW10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW9" />
+
+            <TextView
+                android:id="@+id/textW11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW10" />
+
+            <TextView
+                android:id="@+id/textW12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW11" />
+
+            <TextView
+                android:id="@+id/textW13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW12" />
+
+            <TextView
+                android:id="@+id/textW14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textW13" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

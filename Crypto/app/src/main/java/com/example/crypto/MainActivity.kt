@@ -24,7 +24,34 @@ class MainActivity : AppCompatActivity() {
 
             binding.schemeImg.setImageResource(R.drawable.scheme)
 
-            binding.textX1MultiplyZ1.text = AlgorithmsOperations.binaryOperationsW1(inputText, inputTextKey)
+            binding.textW1.text =
+                AlgorithmsOperations.binaryOperationsW1(inputText, inputTextKey)
+            binding.textW2.text =
+                AlgorithmsOperations.binaryOperationsW2(inputText, inputTextKey)
+            binding.textW3.text =
+                AlgorithmsOperations.binaryOperationsW3(inputText, inputTextKey)
+            binding.textW4.text =
+                AlgorithmsOperations.binaryOperationsW4(inputText, inputTextKey)
+            binding.textW5.text =
+                AlgorithmsOperations.binaryOperationsW5(inputText, inputTextKey)
+            binding.textW6.text =
+                AlgorithmsOperations.binaryOperationsW6(inputText, inputTextKey)
+            binding.textW7.text =
+                AlgorithmsOperations.binaryOperationsW7(inputText, inputTextKey)
+            binding.textW8.text =
+                AlgorithmsOperations.binaryOperationsW8(inputText, inputTextKey)
+            binding.textW9.text =
+                AlgorithmsOperations.binaryOperationsW9(inputText, inputTextKey)
+            binding.textW10.text =
+                AlgorithmsOperations.binaryOperationsW10(inputText, inputTextKey)
+            binding.textW11.text =
+                AlgorithmsOperations.binaryOperationsW11(inputText, inputTextKey)
+            binding.textW12.text =
+                AlgorithmsOperations.binaryOperationsW12(inputText, inputTextKey)
+            binding.textW13.text =
+                AlgorithmsOperations.binaryOperationsW13(inputText, inputTextKey)
+            binding.textW14.text =
+                AlgorithmsOperations.binaryOperationsW14(inputText, inputTextKey)
         }
     }
 }

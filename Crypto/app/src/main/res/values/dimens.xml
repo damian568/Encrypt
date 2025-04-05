@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="margin_top_btn">16dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="btn_width">225dp</dimen>
+    <dimen name="radius">75dp</dimen>
+    <dimen name="btn_stroke">2dp</dimen>
+</resources>

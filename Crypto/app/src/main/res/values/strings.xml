@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Crypto</string>
+    <string name="hint_text">Enter text (with 8 characters)</string>
+    <string name="hint_key">Enter text (with 16 characters)</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="txt_return">Plain text must have at least 8 characters and the key must have at least 16 characters!</string>
+    <string name="encrypt_text">Input must be 8 characters</string>
+    <string name="encrypt_key">Input must be 16 characters</string>
+    <string name="encrypt_return">(unknown character) </string>
+</resources>

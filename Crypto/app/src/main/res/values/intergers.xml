@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="length_text">8</integer>
+    <integer name="length_key">16</integer>
+    <integer name="angle">90</integer>
+    <integer name="btn_angle">360</integer>
+</resources>

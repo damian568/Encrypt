@@ -1,12 +1,13 @@
 package com.example.crypto.algorithms
 
+import com.example.crypto.R
 import com.example.crypto.encryption.charToBinaryMap
 
 object AlgorithmsOperations {
 
     fun binaryOperationsW1(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 8) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -30,8 +31,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW2(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 8) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -55,8 +56,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW3(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 8) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -80,8 +81,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW4(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 8) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -105,8 +106,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW5(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 8) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -146,8 +147,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW6(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 8) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -187,8 +188,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW7(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 10) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -238,8 +239,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW8(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 10) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -322,8 +323,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW9(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 12) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -416,8 +417,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW10(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 12) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -514,8 +515,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW11(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 12) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -611,8 +612,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW12(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 12) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -708,8 +709,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW13(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 12) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }
@@ -809,8 +810,8 @@ object AlgorithmsOperations {
     }
 
     fun binaryOperationsW14(plainText: String, keyText: String): String {
-        if (plainText.length < 8 || keyText.length < 12) {
-            return "Both inputs must have at least 8 characters"
+        if (plainText.length < 8 || keyText.length < 16) {
+            return R.string.txt_return.toString()
         }
 
         val binaryPlain = plainText.map { charToBinaryMap[it] ?: "?" }

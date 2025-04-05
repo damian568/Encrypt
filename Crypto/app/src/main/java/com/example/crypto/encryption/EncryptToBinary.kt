@@ -1,10 +1,12 @@
 package com.example.crypto.encryption
 
+import com.example.crypto.R
+
 object EncryptToBinary {
 
     fun encryptToBinary(input: String): String {
         if (input.length > 8) {
-            return "Input must be 8 characters or less"
+            return R.string.encrypt_text.toString()
         }
 
         val result = StringBuilder()
@@ -14,7 +16,7 @@ object EncryptToBinary {
             if (binary != null) {
                 result.append(binary).append(" ")
             } else {
-                result.append("? ").append("(unknown character) ")
+                result.append("? ").append(R.string.encrypt_return.toString())
             }
         }
 
@@ -23,7 +25,7 @@ object EncryptToBinary {
 
     fun encryptToBinaryKey(input: String): String {
         if (input.length > 16) {
-            return "Input must be 16 characters or less"
+            return R.string.encrypt_key.toString()
         }
 
         val result = StringBuilder()
@@ -33,7 +35,7 @@ object EncryptToBinary {
             if (binary != null) {
                 result.append(binary).append(" ")
             } else {
-                result.append("? ").append("(unknown character) ")
+                result.append("? ").append(R.string.encrypt_return.toString())
             }
         }
 
